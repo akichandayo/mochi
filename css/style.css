@@ -424,7 +424,6 @@ h3 {
         background-image: url(../images/bg_white2.svg);
         padding-left: 0;
         padding-top: 120px;
-        font-size: 18px;
         text-align: center;
     }
 
@@ -434,7 +433,6 @@ h3 {
 
     .how_wrapper {
         flex-direction: column;
-        align-items: center;
         margin-left: 0;
     }
 
@@ -471,19 +469,11 @@ h3 {
     }
 
     .profile {
-        position: absolute;
         right: 39px;
         width: 690px;
         height: 270px;
         padding: 90px 95px 30px 95px;
     }
-
-    .profile p {
-        text-align: left;
-        margin-top: 15px;
-    }
-
-
 }
 
 /*-------------------------------
@@ -498,12 +488,9 @@ h3 {
     .how {
         height: 753px;
         background-image: url(../images/bg_white3.svg);
-        background-position: center center;
-        background-repeat: no-repeat;
         padding-right: 0px;
         padding-top: 150px;
         font-size: 16px;
-        text-align: center;
     }
 
     .okimochi {
@@ -950,14 +937,7 @@ address:last-child {
         width: 375px;
         height: 375px;
     }
-
-
-
 }
-
-
-
-
 
 /*-------------------------------
         footer
