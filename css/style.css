@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-
-
 /*-------------------------------
         共通
 -------------------------------*/
@@ -62,11 +60,7 @@ h3 {
     }
 }
 
-
-/*～～～～～～～～～～～～～～～～～～～～～～～～～
-
-
----------------------------------
+/*---------------------------------
         top
 -------------------------------*/
 .top_bg {
@@ -95,7 +89,6 @@ h3 {
     top: 50px;
     margin-right: 45px;
 }
-
 .menu {
     height: 30px;
     position: absolute;
@@ -104,13 +97,11 @@ h3 {
     width: 46px;
     z-index: 99;
 }
-
 .menu_fix {
     position: fixed;
     z-index: 99;
     right: 0;
 }
-
 .menu__line {
     background: #430000;
     display: block;
@@ -119,29 +110,23 @@ h3 {
     transition: transform .3s;
     width: 100%;
 }
-
 .menu__line--center {
     top: 14px;
 }
-
 .menu__line--bottom {
     bottom: 0;
 }
-
 .menu__line--top.active {
     top: 13px;
     transform: rotate(45deg);
 }
-
 .menu__line--center.active {
     transform: scaleX(0);
 }
-
 .menu__line--bottom.active {
     bottom: 15px;
     transform: rotate(135deg);
 }
-
 /*gnav*/
 .gnav {
     background-color: #FFB5B5;
@@ -151,7 +136,6 @@ h3 {
     width: 100%;
     z-index: 98;
 }
-
 .gnav__wrap {
     align-items: center;
     display: flex;
@@ -160,12 +144,10 @@ h3 {
     position: absolute;
     width: 100%;
 }
-
 .gnav__menu__item {
     margin: 40px 0;
     list-style-type: none;
 }
-
 .gnav__menu__item a {
     color: #fff;
     font-size: 2em;
@@ -174,12 +156,9 @@ h3 {
     text-decoration: none;
     transition: .5s;
 }
-
 .gnav__menu__item a:hover {
     color: #430000;
 }
-
-
 /*ハンバーガーここまで*/
 
 .nav_left {
@@ -248,7 +227,6 @@ h3 {
     100% {
         transform: translate(0px, 18px);
     }
-
 }
 
 .bg2_scl2 {
@@ -290,11 +268,7 @@ h3 {
     .logo {
         padding-top: 40vh;
     }
-
 }
-
-
-
 
 /*-------------------------------
         About
@@ -411,8 +385,6 @@ h3 {
 .c-marker.is-active {
     background-position: 0% .5em;
 }
-
-
 
 /*-------------------------------
         ★About(中サイズのレスポンシブ)
@@ -556,15 +528,7 @@ h3 {
         text-align: left;
         margin-top: 15px;
     }
-
 }
-
-
-
-
-
-
-
 
 /*-------------------------------
         product
@@ -649,8 +613,6 @@ h3 {
     display: none;
 }
 
-
-
 /*-------------------------------
         ★Product(中サイズのレスポンシブ)
 -------------------------------*/
@@ -712,7 +674,6 @@ h3 {
         display: block;
         margin: 0 auto;
     }
-
 }
 
 /*-------------------------------
@@ -741,15 +702,7 @@ h3 {
         max-width: 375px;
         height: auto;
     }
-
 }
-
-
-
-
-
-
-
 
 /*-------------------------------
         shop
@@ -766,8 +719,7 @@ h3 {
     .map_img {
         width: 465px;
         height: 465px;
-    }
-
+}
 
 .shop_bg {
     background-color: #fff;
@@ -834,19 +786,14 @@ address:last-child {
     opacity: 0.5;
 }
 
-
-
-
 /*-------------------------------
         ★Shop(中サイズのレスポンシブ)
 -------------------------------*/
 @media screen and (max-width: 1279px) {
 
-
     .shop_flex {
         flex-direction: column;
     }
-    
 
     .shop_bg {
         text-align: left;
@@ -882,16 +829,12 @@ address:last-child {
         font-size: 16px;
         padding-left: 15px;
     }
-
-
-
 }
 
 /*-------------------------------
         ◎Shop(小サイズのレスポンシブ)
 -------------------------------*/
 @media screen and (max-width: 767px) {
-
 
     .shop_bg {
         max-width: 375px;
